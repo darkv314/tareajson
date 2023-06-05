@@ -13,7 +13,7 @@ public class JsonTest {
             "{\"Content\":\"ignore\"},{\"Content\":\"New Ite\"},true",
             "{\"Content\":\"New Item\"},{},false",
             "{},{\"Content\":\"New Item\"},false",
-            "{},{},true",
+            "{},{},true"
 
     })
     public void verifyCompareJson(String json1, String json2, boolean expected) throws JsonProcessingException {
